@@ -1,0 +1,281 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, main, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+    margin:0;
+    padding:0;
+    border: 0;
+    font-size: 100%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+	color:#666666;
+	font-family:sans-serif;
+	font-size:87.5%;
+	line-height:1.5;
+}
+
+ul,ol{
+	list-style-type:none;
+}
+
+.clearfix:after {/*for modern browser*/
+   content: "";
+   display: block;
+   clear: both;
+}
+
+A:link { color: #0030b1;text-decoration:none; }
+A:visited { color: #006c80;text-decoration:none; }
+A:hover { color: #7171ff;text-decoration:none; }
+A:active { color: #001998;text-decoration:none; }
+
+/*--------------------------
+
+　レイアウト
+
+---------------------------*/
+
+#header{
+    width: 100%;
+    font-size: 16pt;
+    background: rgba(226, 226, 226, 0.8);
+	padding: 4px 0;
+    position: fixed;
+}
+
+#header A{
+    color: darkslateblue;
+    font-size: 24px;
+    margin-left: 140px;
+}
+
+#leftbar{
+    width: 120px;
+    height: 100%;
+    padding-top: 50px;
+    border: 1px;
+    background: rgba(72, 61, 139, 0.8);
+    position: fixed;
+}
+
+#border1{
+    width: 80px;
+    margin: 2px;
+    margin-left: 10px;
+    padding-left: 16px;
+    border: solid 1px;
+    border-color: black;
+    color: blue;
+    background-color: antiquewhite;
+    display:block;
+}
+
+#border1_active{
+    width: 80px;
+    margin: 2px;
+    margin-left: 10px;
+    padding-left: 16px;
+    border: solid 1px;
+    border-color: black;
+    color: blue;
+    background-color: #ffe1b9;
+    display:block;
+}
+
+#border2{
+    width: 80px;
+    margin: 2px;
+    margin-left: 20px;
+    padding-left: 16px;
+    border: solid 1px;
+    border-color: black;
+    color: blue;
+    background-color: antiquewhite;
+    display:block;
+}
+
+#border2_active{
+    width: 80px;
+    margin: 2px;
+    margin-left: 20px;
+    padding-left: 16px;
+    border: solid 1px;
+    border-color: black;
+    color: blue;
+    background-color: #ffe1b9;
+    display:block;
+}
+
+#border3{
+    width: 80px;
+    margin: 2px;
+    margin-left: 30px;
+    padding-left: 16px;
+    border: solid 1px;
+    border-color: black;
+    color: blue;
+    background-color: antiquewhite;
+    display:block;
+}
+
+#border3_active{
+    width: 80px;
+    margin: 2px;
+    margin-left: 30px;
+    padding-left: 16px;
+    border: solid 1px;
+    border-color: black;
+    color: blue;
+    background-color: #ffe1b9;
+    display:block;
+}
+
+#leftbar div{
+    height: 150px;
+    border: 1px;
+    border-color: black;
+    background: #000072;
+}
+
+#leftbar dt{
+    font-size: 12pt;
+    margin: 4pt;
+}
+
+#flame{
+    padding-top:44px;
+    padding-left:120px;
+    height: 90%;
+}
+
+#flame_left{
+    display: table-column;
+    width: 160px;
+    height: 160px;
+    margin:0;
+    float: left;
+    background: #3737a2;
+}
+
+#main{
+    background: #fff5ed;
+    border: 1px;
+}
+
+#thread1{
+    border: solid 1px;
+    margin: 10px;
+    background: #ffdbbd;
+    border-color: coral;
+}
+
+#box{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background: #ff811c;
+    float: left;
+}
+
+#threadtitle{
+    height: 22px;
+    padding: 6px;
+    padding-left: 40px;
+    background: #ffca9e;
+    font-size: 16pt;
+}
+
+#pagetitle{
+    position: fixed;
+    width: 60%;
+    height: 20px;
+    padding-left: 20px;
+    background: rgba(255, 236, 227, 0.8);
+    clear: both;
+}
+
+#threaddate{
+    padding: 4px;
+    font-size: 10pt;
+    height: 22px;
+    width: 100px;
+    padding-left: 20px;
+    background: #ffece3;
+    float: right;
+}
+
+#threadtw{
+    padding: 5px;
+    height: 20px;
+    background: #ffece3;
+    float: right;
+}
+
+#text{
+    padding: 5px;
+}
+
+#threadtext{
+    background: #ffdbbd;
+    padding: 10px;
+}
+
+#space{
+    height: 20px;
+}
+
+#profilepic{
+    margin-right:20px;
+    width:200px;
+    border: solid 1px;
+    border-radius: 8px; 
+}
+
+#pngdata{
+    max-width: 90%;
+    max-height: 1000px;
+}
+
+#pngdata2{
+    max-width: 90%;
+    max-height: 1000px;
+}
+
+#fantiabox{
+    max-width: 360px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 90%;
+    background: rgba(211, 211, 244, 0.8);
+    clear: both;
+}
+
+
+/*--------------------------
+
+　共有スタイル
+
+---------------------------*/
+
